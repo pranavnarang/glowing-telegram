@@ -1,0 +1,464 @@
+.navigation {
+    background-color: #2292A4;
+    border-bottom: 5px solid #F5EFED;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 2000;
+}
+
+li {
+    display: inline-block;
+}
+
+.fade-in {
+    display: none;
+}
+
+.navigation li a {
+    color: #F5EFED;
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 17px 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.navigation a:hover {
+    background-color: #F5EFED;
+    color: #2292A4;
+}
+
+.mainpage {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 146, 164, 1);
+    background-image: url("img/background.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#profilepic {
+    border-radius: 100%;
+    border: 8px solid #F5EFED;
+    margin: 0px 0px 0px 40px;
+}
+
+.profiletxt {
+    color: #F5EFED;
+    line-height: 1.7;
+}
+
+body {
+    background-color: #F5EFED;
+}
+
+hr {
+    width: 50%;
+    margin-left: 0px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+h3,
+a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+p {
+    font-size: 14px;
+    font-family: Avenir;
+    line-height: 1.5;
+}
+
+.area {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.content {
+    width: 600px;
+    max-width: 1280px;
+    margin: auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.col {
+    height: auto;
+    position: relative;
+    width: 49%;
+    float: left;
+}
+
+.main {
+    padding-top: 50%;
+}
+
+.row {
+    width: 100%;
+}
+
+.abt {
+    padding-top: 5px;
+}
+
+.abt h2 {
+    margin: 20px 0px;
+    color: #2292A4;
+}
+
+.abt h3 {
+    color: #2292A4;
+    font-size: 20px;
+}
+
+.abt p {
+    color: #0F0A0A;
+}
+
+.exp {
+    background-color: #2292A4;
+}
+
+.exp p,
+h3,
+h4 {
+    color: #F5EFED;
+}
+
+.exp hr {
+    color: #F5EFED;
+    margin-left: 200px;
+    width: 200px;
+}
+
+.exp h2,
+a {
+    color: #0F0A0A;
+    text-decoration: none;
+}
+
+.exp a:hover {
+    text-decoration: underline;
+}
+
+.acc h2 {
+    color: #2292A4;
+}
+
+.acc hr {
+    margin-left: -30px;
+}
+
+.edu {
+    background-color: #2292A4;
+}
+
+.edu p,
+h3,
+h4 {
+    color: #F5EFED;
+}
+
+.edu hr {
+    color: #F5EFED;
+    margin-left: -145px;
+}
+
+.edu h2 {
+    color: #0F0A0A;
+}
+
+.vol h2 {
+    color: #2292A4;
+}
+
+.vol hr {
+    margin-left: -65px;
+}
+
+.material-icons {
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.strengths {
+    margin-right: 30px;
+    color: #2292A4;
+    float: right;
+    transition: 0.2s;
+}
+
+.strengths:hover {
+    opacity: 0.6;
+}
+
+.fa {
+    margin-right: 2px;
+    font-size: 15px;
+}
+
+.dark {
+    color: #0F0A0A;
+}
+
+.anchor {
+    display: block;
+    padding-top: 55px;
+    margin-top: -55px;
+}
+
+.photo {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.pexp {
+    background-image: url("https://static.pexels.com/photos/1440/city-road-street-buildings.jpg");
+}
+
+.pacc {
+    background-image: url("http://www.wallpapers-web.com/data/out/146/5066906-mountain-peak-wallpapers.jpg");
+}
+
+.pedu {
+    background-image: url("https://www.ubc.ca/_assets/img/aerial_moa_panorama-1920x700.jpg");
+}
+
+.pvol {
+    background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/3s/x4/p03sx4ds.jpg");
+}
+
+.extraspacing {
+    padding-top: 15px;
+}
+
+#type-it {
+    margin-bottom: -10px;
+}
+
+.timeline body {
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background: #2292A4;
+    ;
+    color: #fff;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .container {
+    width: 0%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.timeline h1 {
+    font-size: 2.5rem;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+    background: #2292A4;
+    ;
+    padding: 50px 0;
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin:  auto;
+    padding-top: 10px;
+    background: #fff;
+}
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 360;
+    padding: 15px;
+    background: #F5EFED;
+}
+
+.timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+    left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+    transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+    background: #F45B69;
+}
+
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+    transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.timeline .btn {}
+
+.timeline h3 {
+    color: black;
+    margin-top: -20;
+    margin-bottom: 25;
+    opacity: .8;
+    transition: .3s;
+}
+
+.timeline h3:hover{
+    opacity: 1;
+}
+
+.timeline h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    text-align: left;
+    color: #2292A4;
+    margin-top: -20;
+    margin-bottom: 25;
+    font-style: oblique;
+    transition:  .3s;
+
+}
+
+.timeline h4:hover{
+    background-color: #2292A4;
+    color: white;
+    width: 60px;
+}
+
+.timeline h2 {
+    color: #2292A4
+}
+
+.timeline p {
+    color: black;
+    font-size: 14px;
+    font-family: Avenir;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#center {
+    text-align: center
+}
+
+.timeline h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    color: #2292A4;
+    text-align: left;
+    opacity: .8;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 23px;
+    font-style: oblique;
+    transition: .3s;
+    
+}
+
+.timeline h5:hover{
+    opacity: 1;
+}
+
+.hidden-text {
+    visibility: none;
+}
